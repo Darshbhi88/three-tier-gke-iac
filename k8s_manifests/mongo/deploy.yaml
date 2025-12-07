@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: mongo:4.4.6
+        image: asia-south1-docker.pkg.dev/my-project-0011-473604/three-tier-repo/mongo:4.4.6
         command:
             - "numactl"
             - "--interleave=all"

@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: public.ecr.aws/w8u5e4v2/workshop-backend:v1
+        image: asia-south1-docker.pkg.dev/my-project-0011-473604/three-tier-repo/backend:v1
         imagePullPolicy: Always
         env:
           - name: MONGO_CONN_STR

@@ -25,4 +25,4 @@ COPY --from=build /usr/src/app/build /usr/share/nginx/html
 EXPOSE 80
 
 # Specify the command to run when the container starts
-CMD [ "nginx", "-g", "demon off;" ]
+CMD [ "nginx", "-g", "daemon off;" ]

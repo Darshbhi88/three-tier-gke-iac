@@ -1,6 +1,6 @@
 #Stage 1: build React app
-# Use the official Node.js 18 alpine image as a base image
-FROM node:18-alpine AS build
+# Use the official Node.js 16 alpine image as a base image
+FROM node:16-alpine AS build
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
